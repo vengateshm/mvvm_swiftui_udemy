@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		934676682B43CDBE00E2DAF1 /* mvvm_swiftui_ios_udemyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934676672B43CDBE00E2DAF1 /* mvvm_swiftui_ios_udemyApp.swift */; };
-		9346766A2B43CDBE00E2DAF1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934676692B43CDBE00E2DAF1 /* ContentView.swift */; };
 		9346766C2B43CDC000E2DAF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9346766B2B43CDC000E2DAF1 /* Assets.xcassets */; };
 		9346766F2B43CDC000E2DAF1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9346766E2B43CDC000E2DAF1 /* Preview Assets.xcassets */; };
 		934676792B43CDC000E2DAF1 /* mvvm_swiftui_ios_udemyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934676782B43CDC000E2DAF1 /* mvvm_swiftui_ios_udemyTests.swift */; };
@@ -28,6 +27,23 @@
 		934676B22B4407E100E2DAF1 /* AddWeatherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934676B12B4407E100E2DAF1 /* AddWeatherViewModel.swift */; };
 		934676B42B440F7E00E2DAF1 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934676B32B440F7E00E2DAF1 /* Store.swift */; };
 		93A7C8C52B454B4C00DABA7E /* RemoteImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A7C8C42B454B4C00DABA7E /* RemoteImageView.swift */; };
+		93A7C8C82B45593500DABA7E /* CounterScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A7C8C72B45593500DABA7E /* CounterScreen.swift */; };
+		93A7C8CD2B455B4100DABA7E /* Counter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A7C8CC2B455B4100DABA7E /* Counter.swift */; };
+		93A7C8CF2B455BEA00DABA7E /* CounterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A7C8CE2B455BEA00DABA7E /* CounterViewModel.swift */; };
+		93A7C8DB2B45631E00DABA7E /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A7C8DA2B45631E00DABA7E /* Movie.swift */; };
+		93A7C8DD2B45635E00DABA7E /* MovieDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A7C8DC2B45635E00DABA7E /* MovieDetail.swift */; };
+		93A7C8E32B4565A400DABA7E /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A7C8E22B4565A400DABA7E /* NetworkError.swift */; };
+		93A7C8E52B45664900DABA7E /* MovieService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A7C8E42B45664900DABA7E /* MovieService.swift */; };
+		93A7C8E72B45684900DABA7E /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A7C8E62B45684900DABA7E /* ErrorView.swift */; };
+		93A7C8E92B45686F00DABA7E /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A7C8E82B45686F00DABA7E /* LoadingView.swift */; };
+		93A7C8ED2B4569D100DABA7E /* Rating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A7C8EC2B4569D100DABA7E /* Rating.swift */; };
+		93A7C8EF2B456A0C00DABA7E /* MovieListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A7C8EE2B456A0C00DABA7E /* MovieListView.swift */; };
+		93A7C8F12B456A4000DABA7E /* MovieDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A7C8F02B456A4000DABA7E /* MovieDetailView.swift */; };
+		93A7C8F32B456A6E00DABA7E /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A7C8F22B456A6E00DABA7E /* BaseViewModel.swift */; };
+		93A7C8F52B456AB100DABA7E /* MovieListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A7C8F42B456AB100DABA7E /* MovieListViewModel.swift */; };
+		93A7C8F72B456AF100DABA7E /* MovieDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A7C8F62B456AF100DABA7E /* MovieDetailViewModel.swift */; };
+		93A7C8F92B456B5B00DABA7E /* MovieListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A7C8F82B456B5B00DABA7E /* MovieListScreen.swift */; };
+		93A7C8FB2B456F5100DABA7E /* MovieDetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A7C8FA2B456F5100DABA7E /* MovieDetailScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,7 +66,6 @@
 /* Begin PBXFileReference section */
 		934676642B43CDBE00E2DAF1 /* mvvm_swiftui_ios_udemy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mvvm_swiftui_ios_udemy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		934676672B43CDBE00E2DAF1 /* mvvm_swiftui_ios_udemyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mvvm_swiftui_ios_udemyApp.swift; sourceTree = "<group>"; };
-		934676692B43CDBE00E2DAF1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9346766B2B43CDC000E2DAF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9346766E2B43CDC000E2DAF1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		934676742B43CDC000E2DAF1 /* mvvm_swiftui_ios_udemyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mvvm_swiftui_ios_udemyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -73,6 +88,23 @@
 		934676B32B440F7E00E2DAF1 /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
 		934676B52B44152B00E2DAF1 /* mvvm-swiftui-ios-udemy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "mvvm-swiftui-ios-udemy-Info.plist"; sourceTree = SOURCE_ROOT; };
 		93A7C8C42B454B4C00DABA7E /* RemoteImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteImageView.swift; sourceTree = "<group>"; };
+		93A7C8C72B45593500DABA7E /* CounterScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterScreen.swift; sourceTree = "<group>"; };
+		93A7C8CC2B455B4100DABA7E /* Counter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Counter.swift; sourceTree = "<group>"; };
+		93A7C8CE2B455BEA00DABA7E /* CounterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterViewModel.swift; sourceTree = "<group>"; };
+		93A7C8DA2B45631E00DABA7E /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		93A7C8DC2B45635E00DABA7E /* MovieDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetail.swift; sourceTree = "<group>"; };
+		93A7C8E22B4565A400DABA7E /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		93A7C8E42B45664900DABA7E /* MovieService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieService.swift; sourceTree = "<group>"; };
+		93A7C8E62B45684900DABA7E /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
+		93A7C8E82B45686F00DABA7E /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		93A7C8EC2B4569D100DABA7E /* Rating.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rating.swift; sourceTree = "<group>"; };
+		93A7C8EE2B456A0C00DABA7E /* MovieListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListView.swift; sourceTree = "<group>"; };
+		93A7C8F02B456A4000DABA7E /* MovieDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailView.swift; sourceTree = "<group>"; };
+		93A7C8F22B456A6E00DABA7E /* BaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
+		93A7C8F42B456AB100DABA7E /* MovieListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListViewModel.swift; sourceTree = "<group>"; };
+		93A7C8F62B456AF100DABA7E /* MovieDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailViewModel.swift; sourceTree = "<group>"; };
+		93A7C8F82B456B5B00DABA7E /* MovieListScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListScreen.swift; sourceTree = "<group>"; };
+		93A7C8FA2B456F5100DABA7E /* MovieDetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,10 +155,16 @@
 		934676662B43CDBE00E2DAF1 /* mvvm_swiftui_ios_udemy */ = {
 			isa = PBXGroup;
 			children = (
+				93A7C8EA2B4568CB00DABA7E /* Views */,
+				93A7C8E12B45659400DABA7E /* Common */,
+				934676992B43D50600E2DAF1 /* Utils */,
+				93A7C8E02B4563EF00DABA7E /* Extensions */,
+				93A7C8D12B4560E600DABA7E /* BankApp */,
+				93A7C8D02B45608B00DABA7E /* MovieApp */,
+				93A7C8C62B45591C00DABA7E /* CounterApp */,
 				934676B52B44152B00E2DAF1 /* mvvm-swiftui-ios-udemy-Info.plist */,
 				9346769A2B43D51F00E2DAF1 /* WeatherApp */,
 				934676672B43CDBE00E2DAF1 /* mvvm_swiftui_ios_udemyApp.swift */,
-				934676692B43CDBE00E2DAF1 /* ContentView.swift */,
 				9346766B2B43CDC000E2DAF1 /* Assets.xcassets */,
 				9346766D2B43CDC000E2DAF1 /* Preview Content */,
 			);
@@ -173,7 +211,6 @@
 			children = (
 				934676A12B43DC7B00E2DAF1 /* View+Extensions.swift */,
 				934676A32B43DC8B00E2DAF1 /* Date+Extensions.swift */,
-				934676A52B43DC9700E2DAF1 /* String+Extensions.swift */,
 				934676A72B43DCA600E2DAF1 /* UserDefaults+Extensions.swift */,
 			);
 			path = Extensions;
@@ -199,7 +236,6 @@
 		934676952B43D4D700E2DAF1 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				93A7C8C42B454B4C00DABA7E /* RemoteImageView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -246,9 +282,157 @@
 				934676962B43D4DF00E2DAF1 /* Loaders */,
 				934676972B43D4EA00E2DAF1 /* GlobalState */,
 				934676982B43D4F800E2DAF1 /* ViewModels */,
-				934676992B43D50600E2DAF1 /* Utils */,
 			);
 			path = WeatherApp;
+			sourceTree = "<group>";
+		};
+		93A7C8C62B45591C00DABA7E /* CounterApp */ = {
+			isa = PBXGroup;
+			children = (
+				93A7C8CB2B455B3100DABA7E /* Models */,
+				93A7C8CA2B455B2900DABA7E /* ViewModels */,
+				93A7C8C92B455B0F00DABA7E /* Screens */,
+			);
+			path = CounterApp;
+			sourceTree = "<group>";
+		};
+		93A7C8C92B455B0F00DABA7E /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				93A7C8C72B45593500DABA7E /* CounterScreen.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		93A7C8CA2B455B2900DABA7E /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				93A7C8CE2B455BEA00DABA7E /* CounterViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		93A7C8CB2B455B3100DABA7E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				93A7C8CC2B455B4100DABA7E /* Counter.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		93A7C8D02B45608B00DABA7E /* MovieApp */ = {
+			isa = PBXGroup;
+			children = (
+				93A7C8EB2B4569C600DABA7E /* Controls */,
+				93A7C8D92B45617800DABA7E /* Utils */,
+				93A7C8D82B45617100DABA7E /* Screens */,
+				93A7C8D72B45615500DABA7E /* Models */,
+				93A7C8D62B45614C00DABA7E /* ViewModels */,
+				93A7C8D52B45614500DABA7E /* Views */,
+				93A7C8D42B45613D00DABA7E /* Extensions */,
+				93A7C8D32B45612D00DABA7E /* Services */,
+			);
+			path = MovieApp;
+			sourceTree = "<group>";
+		};
+		93A7C8D12B4560E600DABA7E /* BankApp */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BankApp;
+			sourceTree = "<group>";
+		};
+		93A7C8D32B45612D00DABA7E /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				93A7C8E42B45664900DABA7E /* MovieService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		93A7C8D42B45613D00DABA7E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		93A7C8D52B45614500DABA7E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				93A7C8E62B45684900DABA7E /* ErrorView.swift */,
+				93A7C8E82B45686F00DABA7E /* LoadingView.swift */,
+				93A7C8EE2B456A0C00DABA7E /* MovieListView.swift */,
+				93A7C8F02B456A4000DABA7E /* MovieDetailView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		93A7C8D62B45614C00DABA7E /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				93A7C8F22B456A6E00DABA7E /* BaseViewModel.swift */,
+				93A7C8F42B456AB100DABA7E /* MovieListViewModel.swift */,
+				93A7C8F62B456AF100DABA7E /* MovieDetailViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		93A7C8D72B45615500DABA7E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				93A7C8DA2B45631E00DABA7E /* Movie.swift */,
+				93A7C8DC2B45635E00DABA7E /* MovieDetail.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		93A7C8D82B45617100DABA7E /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				93A7C8F82B456B5B00DABA7E /* MovieListScreen.swift */,
+				93A7C8FA2B456F5100DABA7E /* MovieDetailScreen.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		93A7C8D92B45617800DABA7E /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		93A7C8E02B4563EF00DABA7E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				934676A52B43DC9700E2DAF1 /* String+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		93A7C8E12B45659400DABA7E /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				93A7C8E22B4565A400DABA7E /* NetworkError.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		93A7C8EA2B4568CB00DABA7E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				93A7C8C42B454B4C00DABA7E /* RemoteImageView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		93A7C8EB2B4569C600DABA7E /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+				93A7C8EC2B4569D100DABA7E /* Rating.swift */,
+			);
+			path = Controls;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -386,15 +570,31 @@
 				934676A82B43DCA600E2DAF1 /* UserDefaults+Extensions.swift in Sources */,
 				934676AA2B43DD4200E2DAF1 /* TemperatureUnit.swift in Sources */,
 				934676AC2B43E64200E2DAF1 /* Weather.swift in Sources */,
+				93A7C8FB2B456F5100DABA7E /* MovieDetailScreen.swift in Sources */,
+				93A7C8E92B45686F00DABA7E /* LoadingView.swift in Sources */,
 				934676AE2B43E67B00E2DAF1 /* WeatherService.swift in Sources */,
-				9346766A2B43CDBE00E2DAF1 /* ContentView.swift in Sources */,
 				934676A42B43DC8B00E2DAF1 /* Date+Extensions.swift in Sources */,
 				934676B02B43E77600E2DAF1 /* Constants.swift in Sources */,
+				93A7C8E72B45684900DABA7E /* ErrorView.swift in Sources */,
+				93A7C8CF2B455BEA00DABA7E /* CounterViewModel.swift in Sources */,
 				934676682B43CDBE00E2DAF1 /* mvvm_swiftui_ios_udemyApp.swift in Sources */,
+				93A7C8F12B456A4000DABA7E /* MovieDetailView.swift in Sources */,
+				93A7C8ED2B4569D100DABA7E /* Rating.swift in Sources */,
+				93A7C8E52B45664900DABA7E /* MovieService.swift in Sources */,
 				93A7C8C52B454B4C00DABA7E /* RemoteImageView.swift in Sources */,
 				934676B22B4407E100E2DAF1 /* AddWeatherViewModel.swift in Sources */,
+				93A7C8F32B456A6E00DABA7E /* BaseViewModel.swift in Sources */,
+				93A7C8C82B45593500DABA7E /* CounterScreen.swift in Sources */,
+				93A7C8F92B456B5B00DABA7E /* MovieListScreen.swift in Sources */,
+				93A7C8DB2B45631E00DABA7E /* Movie.swift in Sources */,
+				93A7C8DD2B45635E00DABA7E /* MovieDetail.swift in Sources */,
+				93A7C8E32B4565A400DABA7E /* NetworkError.swift in Sources */,
 				934676A62B43DC9700E2DAF1 /* String+Extensions.swift in Sources */,
+				93A7C8F52B456AB100DABA7E /* MovieListViewModel.swift in Sources */,
+				93A7C8CD2B455B4100DABA7E /* Counter.swift in Sources */,
 				934676A02B43D57700E2DAF1 /* SettingsScreen.swift in Sources */,
+				93A7C8F72B456AF100DABA7E /* MovieDetailViewModel.swift in Sources */,
+				93A7C8EF2B456A0C00DABA7E /* MovieListView.swift in Sources */,
 				934676A22B43DC7B00E2DAF1 /* View+Extensions.swift in Sources */,
 				9346769C2B43D55500E2DAF1 /* WeatherListScreen.swift in Sources */,
 			);

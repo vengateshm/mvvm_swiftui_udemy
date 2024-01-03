@@ -11,7 +11,9 @@ import SwiftUI
 struct mvvm_swiftui_ios_udemyApp: App {
     var body: some Scene {
         WindowGroup {
-            WeatherListScreen().environmentObject(Store())
+//            CounterScreen()
+//            WeatherListScreen().environmentObject(Store())
+            MovieListScreen()
         }
     }
 }

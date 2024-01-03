@@ -6,3 +6,20 @@
 //
 
 import Foundation
+
+class CounterViewModel : ObservableObject {
+    
+    @Published private var counter = Counter()
+    
+    var count : Int {
+        counter.value
+    }
+    
+    var isPremium : Bool {
+        counter.isPremium
+    }
+    
+    func increment() {
+        counter.increment()
+    }
+}

@@ -7,12 +7,6 @@
 
 import Foundation
 
-enum NetworkError: Error {
-    case badUrl
-    case noData
-    case decodingError
-}
-
 class WeatherService {
     func getWeatherByCity(city: String, completion: @escaping ((Result<Weather, NetworkError>)->Void)) {
         

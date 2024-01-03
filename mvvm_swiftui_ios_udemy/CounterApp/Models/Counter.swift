@@ -6,3 +6,14 @@
 //
 
 import Foundation
+
+struct Counter {
+    var value : Int = 0
+    var isPremium : Bool = false
+    
+    mutating func increment() {
+        value = value + 1
+        
+        isPremium = value.isMultiple(of: 5)
+    }
+}
